@@ -19,6 +19,20 @@ The script currently enumerates:
 
 ---
 
+### Azure VM Status Check
+
+Basic Azure VM inventory and status script.
+
+The script lists:
+
+- Virtual Machines
+- Resource Groups
+- VM Size
+- Azure Region
+- Power State
+
+---
+
 ## Technologies
 
 - PowerShell
@@ -36,10 +50,16 @@ Login to Azure:
 az login
 ```
 
-Run the script:
+Run Azure Discovery:
 
 ```powershell
 .\discovery\azure-discovery.ps1
+```
+
+Run VM Status Check:
+
+```powershell
+.\discovery\vm-status-check.ps1
 ```
 
 ---
