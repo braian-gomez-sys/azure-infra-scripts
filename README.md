@@ -33,6 +33,21 @@ The script lists:
 
 ---
 
+### NSG Rules Report
+
+Basic Azure NSG rules inventory script.
+
+The script lists:
+
+- NSG Rules
+- Direction
+- Protocol
+- Ports
+- Access Rules
+- Priorities
+
+---
+
 ## Technologies
 
 - PowerShell
